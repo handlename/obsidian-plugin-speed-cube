@@ -5,7 +5,8 @@
 		"node": true
 	},
 	"plugins": [
-		"@typescript-eslint"
+		"@typescript-eslint",
+		"neverthrow"
 	],
 	"extends": [
 		"eslint:recommended",
@@ -25,6 +26,7 @@
 		],
 		"@typescript-eslint/ban-ts-comment": "off",
 		"no-prototype-builtins": "off",
-		"@typescript-eslint/no-empty-function": "off"
+		"@typescript-eslint/no-empty-function": "off",
+		"neverthrow/must-use-eslint/parser": "error"
 	}
 }

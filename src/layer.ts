@@ -1,5 +1,6 @@
 import { Color, toColor } from './color';
 import { Result, ok, err } from 'neverthrow';
+import { HTML_CLASS_NAME } from './constants';
 
 export class TopLayerMatrix {
 	readonly #rows = 5;
@@ -113,7 +114,7 @@ export const TopLayerParser = {
 export const TopLayerElementBuilder = {
 	build(matrix: TopLayerMatrix): HTMLTableElement {
 		const table = document.createElement("table");
-		table.addClass("speedcube")
+		table.addClass(HTML_CLASS_NAME);
 
 		for (let r = 0; r < matrix.rows; r++) {
 			const tr = document.createElement("tr");

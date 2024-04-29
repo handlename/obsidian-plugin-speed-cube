@@ -126,6 +126,9 @@ export const TopLayerElementBuilder = {
 					td.addClass(color)
 				}
 
+				td.addClass(`row-${r + 1}`);
+				td.addClass(`col-${c + 1}`);
+
 				tr.appendChild(td);
 			}
 

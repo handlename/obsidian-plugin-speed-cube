@@ -1,8 +1,60 @@
-/*
+table.speedcube {
+	background-color: inherit;
+	border-collapse: separate;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.speedcube td {
+	min-width: unset;
+	min-height: unset;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
 
-If your plugin does not need CSS, delete this file.
+.speedcube td.red {
+	background-color: #F80409;
+}
 
-*/
+.speedcube td.green {
+	background-color: #178A29;
+}
+
+.speedcube td.blue {
+	background-color: blue;
+}
+
+.speedcube td.yellow {
+	background-color: #FDDE00;
+}
+
+.speedcube td.orange {
+	background-color: #FF8004;
+}
+
+.speedcube td.white {
+	background-color: white;
+}
+
+.speedcube td.green {
+	background-color: #178A29;
+}
+
+.speedcube td.any {
+	background-color: lightgray;
+}
+
+.speedcube td.blank {
+	background-color: transparent;
+}
+
+.speedcube td.col-1,
+td.col-5 {
+	width: 8px;
+}
+
+.speedcube td.row-1,
+td.row-5 {
+	height: 8px;
+}

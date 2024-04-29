@@ -104,11 +104,16 @@ export const TopLayerParser = {
 			}
 		}
 
+		console.debug(`parsed to: ${matrix.toArray()}`);
+
 		return ok(matrix);
 	},
+};
 
-	buildTable(matrix: TopLayerMatrix): HTMLTableElement {
+export const TopLayerElementBuilder = {
+	build(matrix: TopLayerMatrix): HTMLTableElement {
 		const table = document.createElement("table");
+		table.addClass("speedcube")
 
 		for (let r = 0; r < matrix.rows; r++) {
 			const tr = document.createElement("tr");
@@ -120,6 +125,8 @@ export const TopLayerParser = {
 				if (color !== undefined) {
 					td.addClass(color)
 				}
+
+				tr.appendChild(td);
 			}
 
 			table.appendChild(tr);

@@ -1,16 +1,16 @@
 table.speedcube {
-	background-color: inherit;
-	border-collapse: separate;
+	background-color: inherit !important;
+	border-collapse: separate !important;
 }
 
 .speedcube td {
-	min-width: unset;
-	min-height: unset;
-	width: 30px;
-	height: 30px;
-	padding: 0;
-	margin: 0;
-	border-width: 0;
+	min-width: unset !important;
+	min-height: unset !important;
+	width: 30px !important;
+	height: 30px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border-width: 0 !important;
 }
 
 .speedcube td.red {
@@ -51,10 +51,10 @@ table.speedcube {
 
 .speedcube td.col-1,
 td.col-5 {
-	width: 8px;
+	width: 8px !important;
 }
 
 .speedcube td.row-1,
 td.row-5 {
-	height: 8px;
+	height: 8px !important;
 }

@@ -123,8 +123,10 @@ export const TopLayerElementBuilder = {
 				const td = document.createElement("td");
 				const color = matrix.get(r, c);
 
-				if (color !== undefined) {
-					td.addClass(color)
+				if (color === undefined) {
+					td.addClass("any");
+				} else {
+					td.addClass(color);
 				}
 
 				td.addClass(`row-${r + 1}`);

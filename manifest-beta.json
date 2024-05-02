@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-plugin-speedcube",
+	"name": "Speed Cube",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Demonstrates some of the capabilities of the Obsidian API.",
+	"author": "handlename",
+	"authorUrl": "https://github.com/handlename",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}

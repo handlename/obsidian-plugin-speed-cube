@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.0.2](https://github.com/handlename/obsidian-plugin-speed-cube/compare/0.0.1...0.0.2) - 2024-05-02
+
 ## [0.0.1](https://github.com/handlename/obsidian-plugin-speed-cube/commits/0.0.1) - 2024-05-02
 - chore(deps-dev): bump tslib from 2.4.0 to 2.6.2 by @dependabot in https://github.com/handlename/obsidian-plugin-speed-cube/pull/1
 - chore(deps-dev): bump @typescript-eslint/eslint-plugin from 5.29.0 to 5.62.0 by @dependabot in https://github.com/handlename/obsidian-plugin-speed-cube/pull/3

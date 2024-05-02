@@ -11,7 +11,7 @@
 <table>
   <tr>
     <th>Markdown</th>
-    <th>Preview<th>
+    <th>Preview</th>
   </tr>
   <tr>
     <td>

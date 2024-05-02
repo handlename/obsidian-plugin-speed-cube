@@ -47,6 +47,14 @@ _y**_
   </tr>
 </table>
 
+## Install
+
+Please use [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+
+1. `BRAT Plugins: Add a beta plugin for testing`
+2. Input `handlename/obsidian-plugin-speed-cube`
+3. Push `Add Plugin`
+
 ## License
 
 MIT
